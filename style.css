@@ -1,0 +1,83 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+
+}
+
+p {
+	text-align: justify;
+	line-height: 1.5;
+}
+
+span {
+	font-weight: bold;
+}
+
+#red {
+	color: red;
+}
+
+#yellow {
+	color: yellow;
+}
+
+#text {
+	width: 560px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+
+#container {
+    width: 560px;
+    height: 1000px; 
+    margin: 0 auto;
+    gap: 15px; /* shorthand for row-gap and column-gap*/
+    align-content:start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:start;
+}
+
+.box {
+	width: 	40px;
+	height: 30px;
+	background-color: black;
+	color: grey;
+	border: 1px solid grey;
+	display: flex;
+	align-items:center;
+    justify-content:center;
+    
+}
+
+#switch {
+	background-color: black;
+    color: yellow;
+    border-color: yellow;
+    padding: 0px 15px;
+    margin-left: -15px;
+}
+
+#switch:active {
+  background-color: yellow;
+  border-color: red;
+  color: black;
+  font-weight: bold;
+  transform: scale(0.8);
+}
+
+#solution {
+	background-color: black;
+    color: red;
+    border-color: red;
+    padding: 0px 15px;
+    margin-left: -15px;
+}
+#solution:active {
+	background-color: red;
+    color: black;
+    border-color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 switches</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    
+    <div id="text">
+<h1>100 switches puzzle</h1>
+<p>Each time you press the switch you turn the light in each of the 100 rooms <span id="yellow">on</span> or <span id="yellow">off</span>. The <span >1st</span> time you flip the switch, <span >all</span> the lights are turned on. The <span >2nd</span> time - in <span >every 2nd</span> room. The <span >3rd</span> time - in <span >every 3rd</span> room, and so on.</p>
+<p><span id="red">The question</span>: how many lights will remain on after you flip the switch for the 100th time?</p>
+</div>
+ 
+ <div id="container">
+<div class="box" id="1">1</div>
+<div class="box" id="2">2</div>
+<div class="box" id="3">3</div>
+<div class="box" id="4">4</div>
+<div class="box" id="5">5</div>
+<div class="box" id="6">6</div>
+<div class="box" id="7">7</div>
+<div class="box" id="8">8</div>
+<div class="box" id="9">9</div>
+<div class="box" id="10">10</div>
+<div class="box" id="11">11</div>
+<div class="box" id="12">12</div>
+<div class="box" id="13">13</div>
+<div class="box" id="14">14</div>
+<div class="box" id="15">15</div>
+<div class="box" id="16">16</div>
+<div class="box" id="17">17</div>
+<div class="box" id="18">18</div>
+<div class="box" id="19">19</div>
+<div class="box" id="20">20</div>
+<div class="box" id="21">21</div>
+<div class="box" id="22">22</div>
+<div class="box" id="23">23</div>
+<div class="box" id="24">24</div>
+<div class="box" id="25">25</div>
+<div class="box" id="26">26</div>
+<div class="box" id="27">27</div>
+<div class="box" id="28">28</div>
+<div class="box" id="29">29</div>
+<div class="box" id="30">30</div>
+<div class="box" id="31">31</div>
+<div class="box" id="32">32</div>
+<div class="box" id="33">33</div>
+<div class="box" id="34">34</div>
+<div class="box" id="35">35</div>
+<div class="box" id="36">36</div>
+<div class="box" id="37">37</div>
+<div class="box" id="38">38</div>
+<div class="box" id="39">39</div>
+<div class="box" id="40">40</div>
+<div class="box" id="41">41</div>
+<div class="box" id="42">42</div>
+<div class="box" id="43">43</div>
+<div class="box" id="44">44</div>
+<div class="box" id="45">45</div>
+<div class="box" id="46">46</div>
+<div class="box" id="47">47</div>
+<div class="box" id="48">48</div>
+<div class="box" id="49">49</div>
+<div class="box" id="50">50</div>
+<div class="box" id="51">51</div>
+<div class="box" id="52">52</div>
+<div class="box" id="53">53</div>
+<div class="box" id="54">54</div>
+<div class="box" id="55">55</div>
+<div class="box" id="56">56</div>
+<div class="box" id="57">57</div>
+<div class="box" id="58">58</div>
+<div class="box" id="59">59</div>
+<div class="box" id="60">60</div>
+<div class="box" id="61">61</div>
+<div class="box" id="62">62</div>
+<div class="box" id="63">63</div>
+<div class="box" id="64">64</div>
+<div class="box" id="65">65</div>
+<div class="box" id="66">66</div>
+<div class="box" id="67">67</div>
+<div class="box" id="68">68</div>
+<div class="box" id="69">69</div>
+<div class="box" id="70">70</div>
+<div class="box" id="71">71</div>
+<div class="box" id="72">72</div>
+<div class="box" id="73">73</div>
+<div class="box" id="74">74</div>
+<div class="box" id="75">75</div>
+<div class="box" id="76">76</div>
+<div class="box" id="77">77</div>
+<div class="box" id="78">78</div>
+<div class="box" id="79">79</div>
+<div class="box" id="80">80</div>
+<div class="box" id="81">81</div>
+<div class="box" id="82">82</div>
+<div class="box" id="83">83</div>
+<div class="box" id="84">84</div>
+<div class="box" id="85">85</div>
+<div class="box" id="86">86</div>
+<div class="box" id="87">87</div>
+<div class="box" id="88">88</div>
+<div class="box" id="89">89</div>
+<div class="box" id="90">90</div>
+<div class="box" id="91">91</div>
+<div class="box" id="92">92</div>
+<div class="box" id="93">93</div>
+<div class="box" id="94">94</div>
+<div class="box" id="95">95</div>
+<div class="box" id="96">96</div>
+<div class="box" id="97">97</div>
+<div class="box" id="98">98</div>
+<div class="box" id="99">99</div>
+<div class="box" id="100">100</div>
+<br>
+<br>
+ <button id="switch">switch</button>
+ <br>
+<br>
+<button id="solution">solution</button>
+ </div>
+
+
+    <script src="app.js"></script>
+
+</html>
