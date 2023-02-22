@@ -29,7 +29,7 @@ function item(room, switches, numbers) {
 const switchButton = document.querySelector("#switch");
 details.disabled = true;
 
-// %%%%%%%%%%%%%%% SWITCH %%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%% SWITCH %%%%%%%%%%%%%%%%%%%%%
 
 function toggleColor(id) {
 	let item = document.getElementById(`${id}`);
@@ -57,6 +57,7 @@ let n = 0;
 function flipTheSwitch() {
 	n++;
 	changeInterval(n);
+	counter.innerHTML = n;
 }
 
 switchButton.onclick = () => {
@@ -104,6 +105,7 @@ function switchOffAll() {
 	solution.disabled = false;
 	switchButton.disabled = false;
 	details.disabled = true;
+	counter.innerHTML = 0;
 	n = 0;
 }
 // %%%%%%%% SOLUTION %%%%%%%%%%%%%%%%%%%%%
@@ -118,6 +120,7 @@ function showSolution() {
 	for (let i = 0; i < 100; i++) {
 		data.push(new item(i + 1, switchesData[i], divisors[i]))
 	}
+	counter.innerHTML = 100;
 }
 
 // %%%%%%%%% DETAILS %%%%%%%%%%%%%%%%%%%%%%%%
