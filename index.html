@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    
+
     <div id="text">
         <h1>The Light Switch Problem</h1>
-        <p>Each time you press the switch, the light in each of the 100 rooms is turned <span id="yellow">on</span> or <span id="yellow">off</span>. The <span >1st</span> time you flip the switch, <span >all</span> the lights are turned on. The <span>2nd</span> time - lights turn off in <span >every 2nd</span> room. The <span >3rd</span> time - lights turn on or off in <span >every 3rd</span> room, and so on. Try by clicking the <span>SWITCH</span> button.</p>
+        <p>Each time you press the switch, the light in each of the 100 rooms is turned <span id="yellow">on</span> or <span id="yellow">off</span>. The <span >1st</span> time you flip the switch, <span >all</span> the lights are turned on. The <span>2nd</span> time - lights turn off in <span >every 2nd</span> room. The <span >3rd</span> time - lights turn on or off in <span >every 3rd</span> room, and so on. Try by clicking the <span>SWITCH</span> button. The yellow counter shows how many times you've flipped the switch.</p>
         <p><span id="red">Question #1</span>: How many lights will remain on after you flip the switch for the 100th time? Find out by pressing the <span>SOLUTION</span> button.</p>
         <p><span id="red">Question #2</span>: In which room(s) was the number of switches the biggest? What's peculiar about these numbers? To find out, press the <span>DETAILS</span> button.</p>
     </div>
@@ -119,23 +119,20 @@
         <div class="box" id="98">98</div>
         <div class="box" id="99">99</div>
         <div class="box" id="100">100</div>
-        <br>
-        <br>
-        <button id="switch">SWITCH</button>
-        <br>
-        <br>
-        <button id="cancel">RESET</button>
-        <br>
-        <br>
-        <button id="solution">SOLUTION</button>
-        <br>
-        <br>
-        <button id="details">DETAILS</button>
+        
+        <div id="controls">
+            <button id="switch">SWITCH</button>
+            <button id="cancel">RESET</button>
+            <button id="solution">SOLUTION</button>
+            <button id="details">DETAILS</button>
+            <br><br>
+            <div id="counter">0</div>
+        </div>
     </div>
 
     <div id="detailsData"></div>
 
-
     <script src="app.js"></script>
+</body>
 
-    </html>
+</html>
