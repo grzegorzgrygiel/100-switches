@@ -40,6 +40,13 @@ span {
     align-content:start;
 }
 
+#controls {
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
 #detailsData {
     width: 560px;
     margin: 0 auto;
@@ -58,6 +65,20 @@ span {
     
 }
 
+#counter {
+    width:  40px;
+    height: 35px;
+    background-color: black;
+    color: grey;
+    border: 1px solid grey;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-right: 7px;
+    color: yellow;
+    font-weight: bold;
+}
+
 .room {
  line-height: normal;   
 }
@@ -67,7 +88,6 @@ span {
     color: yellow;
     border-color: yellow;
     padding: 0px 15px;
-    margin-left: -15px;
 }
 
 #switch:active {
@@ -91,14 +111,14 @@ span {
     color: white;
     border-color: white;
     padding: 0px 15px;
-    margin-left: -15px;
+    margin-left: -10px;
+
 }
 #cancel:active {
     background-color: white;
     color: black;
     border-color: white;
     padding: 0px 15px;
-    margin-left: -15px;
 }
 
 #solution {
@@ -106,7 +126,8 @@ span {
     color: red;
     border-color: red;
     padding: 0px 15px;
-    margin-left: -15px;
+    margin-left: -10px;
+
 }
 #solution:active {
 	background-color: red;
@@ -128,7 +149,8 @@ span {
     border-color: green;
     font-weight: bold;
     padding: 0px 15px;
-    margin-left: -15px;
+    margin-left: -10px;
+
 }
 #details:active {
     background-color: green;
@@ -143,4 +165,3 @@ span {
     border-color: rgb(208, 247, 190);
     font-weight: bold;
 }
-
